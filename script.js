@@ -1,6 +1,4 @@
-function calculateMinCost() {
-  //your code here
-  function compare(a, b) {
+function compare(a, b) {
   if (a < b) {
       return -1;
   } else if (a > b) {
@@ -41,7 +39,4 @@ console.log(total);
  
 let result=document.getElementById('result');
 result.innerHTML=total;
-} 
-  
-  
 }  
